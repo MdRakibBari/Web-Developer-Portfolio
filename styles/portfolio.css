@@ -219,12 +219,15 @@ nav a {
     height: 64px;
     width: 150px;
     justify-content: center;
-    
+
 }
 
 footer {
     display: flex;
     background: #FFF8F3;
+    padding: 0px 386px 602px 230px;
+    gap: 117px;
+    justify-content: space-between;
 }
 
 .hup {
@@ -236,4 +239,34 @@ footer {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 0;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.todler {
+    width: 461px;
+    height: 64px;
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+
+.side {}
+
+#uffk {
+    color: var(--Dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+.social-link a{
+    margin-right: 25px;
 }
