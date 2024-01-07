@@ -125,6 +125,8 @@ nav a {
     display: flex;
     justify-content: space-around;
     gap: 50px;
+    padding-left: 179px;
+    padding-right: 179px;
 }
 
 .informa-title {
@@ -174,6 +176,7 @@ nav a {
     font-weight: 700;
     margin-left: 230px;
     margin-right: 230px;
+    align-items: center;
 }
 .summary-item{
     color: #474747;
