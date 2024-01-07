@@ -101,9 +101,7 @@ nav a {
     border-radius: 10px;
     background: #FFF8F3;
     flex-shrink: 0;
-    text-align: center;
-    margin: auto;
-    margin-top: 130px;
+    margin: 130px 230px;
 }
 
 .section-title {
@@ -111,13 +109,45 @@ nav a {
     text-align: center;
     font-size: 35px;
     font-weight: 700;
+    padding-top: 131px;
 
 
 }
 
 .section-paragraph {
     color: var(--Dark-03, #757575);
-text-align: center;
-font-size: 18px;
-font-weight: 400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-informa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.informa-title {
+    text-align: center;
+    padding-bottom: 131px;
+
+}
+
+.info-title {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    /* 150% */
+}
+
+.info-descrip {
+
+    color: var(--Dark-02, #474747);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.skill-container{
+    display: flex;
 }
