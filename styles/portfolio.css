@@ -57,6 +57,7 @@ nav a {
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+
 }
 
 .banner {
@@ -171,27 +172,42 @@ nav a {
 .summary-container {
     display: flex;
     gap: 71px;
+    margin-left: 230px;
+    margin-right: 230px;
     color: #474747;
     font-size: 30px;
     font-weight: 700;
-    margin-left: 230px;
-    margin-right: 230px;
-    align-items: center;
+    justify-content: center;
 }
-.summary-item{
+
+.summary-item {
     color: #474747;
-font-size: 25px;
-font-weight: 700;
+    font-size: 25px;
+    font-weight: 700;
 
 }
-.sum-sub-h{
+
+.sum-sub-h {
     color: #757575;
-font-size: 20px;
-font-weight: 600;
+    font-size: 20px;
+    font-weight: 600;
 }
-.sum-para{
+
+.sum-para {
     color: #757575;
-font-size: 16px;
-font-weight: 400;
-line-height: 28px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.about{
+    justify-content: center;
+    align-items: center;
+}
+.What-i-do{
+    
+}
+.button-primary{
+    margin-left: 750px;
+    margin-top: 50px;
 }
