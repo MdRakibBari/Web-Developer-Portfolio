@@ -48,16 +48,20 @@ nav a {
     border: 0;
     /* padding: 18px 35px 19px 36px; */
     height: 64px;
-    width: 150px;
+    width: 200px;
 }
 
 /* Header related styles */
 .header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
 
+}
+.header{
+    /* background-image: url('../images/header_bg.png'); */
+    /* background-position: bottom right; */
 }
 
 .banner {
