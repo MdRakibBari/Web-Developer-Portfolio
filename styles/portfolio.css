@@ -200,14 +200,40 @@ nav a {
     line-height: 28px;
 }
 
-.about{
+.about {
     justify-content: center;
     align-items: center;
 }
-.What-i-do{
-    
-}
-.button-primary{
+
+.What-i-do {}
+
+.button-pro {
     margin-left: 750px;
     margin-top: 50px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    height: 64px;
+    width: 150px;
+    justify-content: center;
+    
+}
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+}
+
+.hup {
+    margin-bottom: 131px;
+}
+
+.boro {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 }
